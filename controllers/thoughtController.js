@@ -68,7 +68,7 @@ module.exports = {
                 { runValidators: true, new: true}
             )
             if (!thought) {
-                res.status(404).json({message: `Unable to think your thought.`})
+                res.status(404).json({message: `Unable to think your thunk.`})
             } else {
                 res.json(thought)
             }
@@ -84,7 +84,7 @@ module.exports = {
                 {runValidators: true, new: true}
             )
             if (!thought) {
-                res.status(404).json({message: `This thought can't be unthought`})
+                res.status(404).json({message: `This thought can't be unthunked`})
             } else {
                 res.json('Reaction removed.')
             }

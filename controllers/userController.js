@@ -65,7 +65,7 @@ module.exports = {
         try {
             const friend = await User.findOne({ _id: req.params.friendId })
             if (!friend) {
-                res.status(404).json({ message: 'That friend does not exist' })
+                res.status(404).json({ message: 'That friend does not exist :(' })
             }
             const addedFriend = await User.findOneAndUpdate(
                 { _id: req.params.userId },
@@ -85,7 +85,7 @@ module.exports = {
         try {
             const friend = await User.findOne({ _id: req.params.friendId })
             if (!friend) {
-                res.status(404).json({ message: 'That friend does not exist' })
+                res.status(404).json({ message: 'That friend does not exist :(' })
             }
             const user = await User.findOneAndUpdate(
                 { _id: req.params.userId },
