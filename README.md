@@ -3,7 +3,7 @@ An API for a social network web application where users can share their thoughts
 
 ## Walkthrough Video
 
-https://drive.google.com/file/d/14EqvRq9czf2Yb5yO8uYzB8PjSifsOBB2/view 
+https://drive.google.com/file/d/14EqvRq9czf2Yb5yO8uYzB8PjSifsOBB2/view
 
 You can watch the walkthrough video <a href="https://drive.google.com/file/d/14EqvRq9czf2Yb5yO8uYzB8PjSifsOBB2/view">HERE</a>
 
